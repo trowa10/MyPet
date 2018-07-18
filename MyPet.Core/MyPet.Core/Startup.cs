@@ -13,6 +13,15 @@ namespace MyPet.Core
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", p =>
+                {
+                    p.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
+            });
             services.AddMvc();
             services.AddTransient<IPetProfileService, PetProfileService>();
         }
@@ -24,12 +33,13 @@ namespace MyPet.Core
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("AllowAll");
+            app.UseStaticFiles();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=PetProfile}/{action=Index}/{id?}");               
+                    template: "{controller=PetProfile}/{action=Index}/{id?}");
             });
 
             app.Run(async (context) =>
