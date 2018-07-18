@@ -1,24 +1,36 @@
-<div class="form-group">
-      <div class="col-sm-4 main-container">
-            <div class="form-group">
-              <span style="white-space: nowrap">
-                <label class="label-padding" for="PetCategory">Make a claim for your pet</label>
-                <select class="form-control" id="PetCategory" [(ngModel)]="selectedPet">
-                        <option value="" disabled selected>select a category</option>
-                        <option *ngFor="let item of Pets" [value]="item.name">{{item.name}}</option>
-                </select>
-              </span>
-            </div>
-        </div>  
-        <br>
+ 
+
+<div class="form-group main-container">
+        <div class="col-sm-7 left-container">
+                <label style="font-size: 25px; padding-bottom: 25px;" class="label-padding">Make a claim </label>
+        </div>
+            <div class="col-sm-7 left-container">
+                    <div class="form-group">
+                      <span style="white-space: nowrap">
+                        <label class="label-padding" for="PetCategory">Make a claim for your pet</label>
+                        <select class="form-control" id="PetCategory" [(ngModel)]="selectedPet">
+                                <option value="" disabled selected>select a category</option>
+                                <option *ngFor="let item of Pets" [value]="item.name">{{item.name}}</option>
+                        </select>
+                      </span>
+                    </div>
+                </div> 
+  
+   
+        
+        <br>   <br>   
         <div>
-                <div class="col-md-3 col-centered">
+                <div *ngIf='selectedPet' class="col-sm-6 left-container">
+                    <span>Attache {{ selectedPet }}'s invoice for us here</span>
+                </div>
+                <div class="col-md-3 left-container">
                   <file-drop (onFileDrop)="dropped($event)" >
-                      <span>Drag and drop</span>
+                      Drag and drop or <a href="#">select from inbox</a>
+                     
                   </file-drop>
                 </div>
-                
-                <div class="upload-table col-md-3 col-centered">
+                <br>   <br>
+                <div class="upload-table col-md-3 main-container">
                     <table class="table">
                         <thead>
                             <tr>
@@ -32,12 +44,30 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
-            <br>
-            <div>
-                <div class="col-md-3 col-centered">
-                    <button (click)="saveFiles(content)" type="button" class="btn btn-primary btn-md">Submit</button>
-                    <a href="#">Or save for later</a>
-                </div>
-            </div>  
+        </div>
+       
+  
+        <div style="padding: 10px 10px 10px 10px;" class="col-md-5  left-container">
+            <button (click)="saveFiles(content)" type="button" style="background-color: black;" class="btn btn-primary btn-md">Submit</button>
+            <a href="#">Or save for later</a>
+         </div>
+         
+     
 </div>
+
+<!-- Can't opne the modal -->
+<!-- <ng-template #content let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title">{{modalTitle}}</h4>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>{{modalMessage}}</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+        </div>
+</ng-template> -->
+

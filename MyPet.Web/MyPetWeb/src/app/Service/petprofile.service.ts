@@ -6,7 +6,6 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PetProfileService {
-  
   private _apiUrl = 'http://localhost:54049/api';
 
   constructor(private http: HttpClient) { }
