@@ -1,0 +1,14 @@
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Business.deps.json
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Business.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Business.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Common.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Common.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.csprojResolveAssemblyReference.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.csproj.CoreCompileInputs.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.AssemblyInfoInputs.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.AssemblyInfo.cs
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.csproj.CopyComplete
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\obj\Debug\netstandard2.0\MyPet.Business.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Persistence.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Business\bin\Debug\netstandard2.0\MyPet.Persistence.pdb

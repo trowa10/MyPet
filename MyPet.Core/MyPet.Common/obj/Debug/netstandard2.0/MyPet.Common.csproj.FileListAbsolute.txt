@@ -1,0 +1,8 @@
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\bin\Debug\netstandard2.0\MyPet.Common.deps.json
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\bin\Debug\netstandard2.0\MyPet.Common.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\bin\Debug\netstandard2.0\MyPet.Common.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\obj\Debug\netstandard2.0\MyPet.Common.csproj.CoreCompileInputs.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\obj\Debug\netstandard2.0\MyPet.Common.AssemblyInfoInputs.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\obj\Debug\netstandard2.0\MyPet.Common.AssemblyInfo.cs
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\obj\Debug\netstandard2.0\MyPet.Common.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Common\obj\Debug\netstandard2.0\MyPet.Common.pdb

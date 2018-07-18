@@ -1,0 +1,12 @@
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\bin\Debug\netstandard2.0\MyPet.Persistence.deps.json
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\bin\Debug\netstandard2.0\MyPet.Persistence.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\bin\Debug\netstandard2.0\MyPet.Persistence.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\bin\Debug\netstandard2.0\MyPet.Common.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\bin\Debug\netstandard2.0\MyPet.Common.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.AssemblyInfoInputs.cache
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.AssemblyInfo.cs
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.csproj.CopyComplete
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.dll
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.pdb
+C:\Users\ME004266882\source\repos\MyPet.Core\MyPet.Persistense\obj\Debug\netstandard2.0\MyPet.Persistence.csprojResolveAssemblyReference.cache
