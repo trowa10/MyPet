@@ -1,0 +1,7 @@
+#divParentContainer {
+    width: 60%;height:200px;margin: 0 auto;background-color:#FFFFFF; border: midnightblue solid 1.5px
+}
+
+.divLogo {
+    text-align: left; margin: 10px 10px 10px 10px;
+}

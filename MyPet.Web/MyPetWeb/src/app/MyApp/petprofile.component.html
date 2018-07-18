@@ -1,0 +1,43 @@
+<div class="form-group">
+      <div class="col-sm-4 main-container">
+            <div class="form-group">
+              <span style="white-space: nowrap">
+                <label class="label-padding" for="PetCategory">Make a claim for your pet</label>
+                <select class="form-control" id="PetCategory" [(ngModel)]="selectedPet">
+                        <option value="" disabled selected>select a category</option>
+                        <option *ngFor="let item of Pets" [value]="item.name">{{item.name}}</option>
+                </select>
+              </span>
+            </div>
+        </div>  
+        <br>
+        <div>
+                <div class="col-md-3 col-centered">
+                  <file-drop (onFileDrop)="dropped($event)" >
+                      <span>Drag and drop</span>
+                  </file-drop>
+                </div>
+                
+                <div class="upload-table col-md-3 col-centered">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>File</th>
+                            </tr>
+                        </thead>
+                        <tbody class="upload-name-style">
+                            <tr *ngFor="let item of files; let i=index">
+                                <td><strong>{{ item.relativePath }}</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="col-md-3 col-centered">
+                    <button (click)="saveFiles(content)" type="button" class="btn btn-primary btn-md">Submit</button>
+                    <a href="#">Or save for later</a>
+                </div>
+            </div>  
+</div>
